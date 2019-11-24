@@ -14,9 +14,10 @@
     "3.26", 
     "3.28", 
     "3.30", 
+    "3.34", 
     "3.32"
   ], 
-  "url": "https://github.com/hackedbellini/Gnome-Shell-Notifications-Alert", 
+  "url": "https://github.com/bellini666/gnome-shell-notifications-alert", 
   "uuid": "notifications-alert-on-user-menu@hackedbellini.gmail.com", 
-  "version": 38
+  "version": 40
 }
