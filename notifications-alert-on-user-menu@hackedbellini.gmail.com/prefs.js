@@ -170,8 +170,12 @@ function init() {
 
   colorSettings = {
     color: {
-      label: _("Alert color"),
+      label: _("Alert font color"),
       help: _("The color used to paint the message on user's menu")
+    },
+    backgroundcolor: {
+      label: _("Alert background color"),
+      help: _("The background color used to paint the message on user's menu")
     },
   };
 
@@ -186,6 +190,14 @@ function init() {
   };
 
   boolSettings = {
+    usecolor: {
+      label: _("Use alert font color"),
+      help: _("Use the alert font color for alert blinks (default: ON)")
+    },
+    usebackgroundcolor: {
+      label: _("Use alert background color"),
+      help: _("Use the alert background color for alert blinks (default: OFF)")
+    },
     chatonly: {
       label: _("Only alert for chat notifications"),
       help: _("Only chat notifications (like Empathy ones) will get alerted (default: OFF)")
